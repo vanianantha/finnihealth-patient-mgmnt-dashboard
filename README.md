@@ -54,20 +54,17 @@ cd patient-management-dashboard
 
 ---
 
-### 2. **Backend Setup**: patient_api
+### 2. **Backend Setup: patient_api**
 
 ```bash
 cd patient_api
 npm install
 ```
-
 #### 🔑 Create `.env` file in `/patient_api`:
-
 ```env
 PORT=5000
 MONGO_URI="mongodb+srv://vanianantha:vanianantha@cluster0.pcl7poc.mongodb.net/FinniHealth"
 ```
-
 #### ▶️ Start the patient_api
 
 npm start
@@ -76,7 +73,7 @@ npm start
 ##server starts in localhost:5000 
 ##to run in other port change the port variable in .env file
 
-### 3. **Frontend Setup**
+### 3. **Frontend Setup: patient-dashboard**
 
 ```bash
 cd /patient-dashboard
