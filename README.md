@@ -52,7 +52,7 @@ git clone https://github.com/vanianantha/finnihealth-patient-mgmnt-dashboard
 cd patient-management-dashboard
 ```
 ---
-```
+
 ### 2. **Backend Setup: patient_api**
 ```bash
 cd patient_api
@@ -64,6 +64,7 @@ PORT=5000
 MONGO_URI="mongodb+srv://vanianantha:vanianantha@cluster0.pcl7poc.mongodb.net/FinniHealth"
 ```
 #### ▶️ Start the patient_api
+```bash
 npm start
 ```
 ##server starts in localhost:5000 
