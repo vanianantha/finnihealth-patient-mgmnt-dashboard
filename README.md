@@ -52,7 +52,7 @@ git clone https://github.com/vanianantha/finnihealth-patient-mgmnt-dashboard
 cd patient-management-dashboard
 ```
 ---
-
+```
 ### 2. **Backend Setup: patient_api**
 ```bash
 cd patient_api
@@ -68,7 +68,7 @@ npm start
 ```
 ##server starts in localhost:5000 
 ##to run in other port change the port variable in .env file
-
+````
 ### 3. **Frontend Setup: patient-dashboard**
 ```bash
 cd /patient-dashboard
