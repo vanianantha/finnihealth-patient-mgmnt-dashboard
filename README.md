@@ -59,8 +59,7 @@ PORT=5000
 MONGO_URI="mongodb+srv://vanianantha:vanianantha@cluster0.pcl7poc.mongodb.net/FinniHealth"
 npm start
 ```
-Backend runs at `http://localhost:5000`
-##to run in other port change the port variable in .env file
+Backend runs at `http://localhost:5000` to run in other port change the port variable in .env file
 
 ### 3. Frontend Setup: patient-dashboard
 ```bash
@@ -72,11 +71,11 @@ Frontend runs at `http://localhost:3000`
 
 
 ## 📝 Notes
-- Make sure `.env` is set up before starting the backend.
+- Make sure `.env` is set up before starting the patient_api.
 - All dependencies are managed via `npm`.
-- The backend uses Joi for validation and Mongoose for database modeling.
-- The frontend uses React, Tailwind CSS, and Heroicons for a clean UI.
-- Make sure backend is running on `http://localhost:5000` 
+- The patient_api uses Joi for validation and Mongoose for database modeling.
+- The patient-dashboard uses React, Tailwind CSS, and Heroicons for a clean UI.
+- Make sure patient_api is running on `http://localhost:5000` 
       or 
 update your Axios base URL in patient-dashboard api.js file accordingly.
 
