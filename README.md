@@ -44,41 +44,31 @@ patient-management-dashboard/
 
 ---
 
-## 🔧 Setup Instructions
-
-### 1. **Clone the Repo**
-
-git clone https://github.com/vanianantha/finnihealth-patient-mgmnt-dashboard
-cd patient-management-dashboard
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vanianantha/finnihealth-patient-mgmnt-dashboard.git
+cd <repo-folder>
 ```
----
-
-### 2. **Backend Setup: patient_api**
+### 2. Backend Setup: patient_api
 ```bash
 cd patient_api
 npm install
-```
 #### 🔑 Create `.env` file in `/patient_api`:
 ```env
 PORT=5000
 MONGO_URI="mongodb+srv://vanianantha:vanianantha@cluster0.pcl7poc.mongodb.net/FinniHealth"
-```
-#### ▶️ Start the patient_api
-```bash
 npm start
 ```
-##server starts in localhost:5000 
+Backend runs at `http://localhost:5000`
 ##to run in other port change the port variable in .env file
-````
-### 3. **Frontend Setup: patient-dashboard**
+
+### 3. Frontend Setup: patient-dashboard
 ```bash
-cd /patient-dashboard
+cd patient-dashboard
 npm install
-```
-#### ▶️ Start the patient-dashboard
-```bash
 npm start
 ```
+Frontend runs at `http://localhost:3000`
 
 
 ## 📝 Notes
